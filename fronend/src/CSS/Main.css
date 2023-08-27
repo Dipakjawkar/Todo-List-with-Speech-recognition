@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-div {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.main-menu ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 30px;
+    color: green;
+}
+li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-menu ul {
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+/* =================================================== */
+
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.output-div {
+    padding: 10px;
+    height: 200px;
+    width: 350px;
+    background-color: #F8F8F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10px;
+    transition: all 0.5s;
+    position: relative;
+    box-shadow: 0 0 0px rgb(7, 200, 13);
+}
+
+.output-div:hover {
+    box-shadow: 0 0 2px black;
+
+}
+
+.main-Output {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+}
+
+.cut-div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    transition: all 0.4s;
+}
+
+.cut-div:hover {
+    background-color: red;
+    color: white;
+}
+
+button {
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+
+}
+form{
+    display: flex;
+    background-color: #F8F8F6;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 30px;
+}
+textarea{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+[name="submitInfo"]{
+    padding: 7px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+}
+
+/* =========================== */
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar h3{
+    color: green;
+}
+.bar-1{
+    height: 3px;
+    border-radius: 10px;
+    width: 90vw;
+    background-color: orange;
+    margin: 0px 10px;
+}
+
+
+/* =========== login - signup css ============== */
+
+.login{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    flex-direction: column;
+}
+.signup{
+  
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+        flex-direction: column;
+    
+}
+.login .form{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.login .form input{
+    padding: 2px 5px;
+    margin: 5px 0px;
+}
+.signup .form{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.signup .form input{
+    padding: 2px 5px;
+    margin: 5px 0px;
+}
